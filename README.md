@@ -46,7 +46,7 @@ PLEASE CHECK THE LINK
 _Outline planned features or improvements for your game._
 
 -   Add Timer and Sound Effects.
--   Enhance some feature by allowed to play as two teams.
+-   Enhance some feature by adding Difficulty Levels.
 -   Provide an option to give players hints.
 
 
