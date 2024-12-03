@@ -1,5 +1,4 @@
-
-![# [Hangman Game] 🎮
+# [Hangman Game] 🎮
 
 _Hangman is a popular word guessing game where one player thinks of a word, and the other player tries to guess it by suggesting letters. if the guesser suggests a correct letter, it's revealed in the word, if the guess is incorrect, a part of a hangman figure is drawn. but I created emojis instead of hangman figure._
 
@@ -38,18 +37,7 @@ _Hangman is a popular word guessing game where one player thinks of a word, and 
 
 ![HTML](https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=flat-square)  
 ![CSS](https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white&style=flat-square)  
-![app.js](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
-
-----------
-
-## Next Steps
-
-_Outline planned features or improvements for your game._
-
--   Add Timer and Sound Effects.
--   Enhance some feature by allowed to play as two teams.
--   Provide an option to give players hints.
-](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
 
 ----------
 
