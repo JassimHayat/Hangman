@@ -11,7 +11,7 @@ _Hangman is a popular word guessing game where one player thinks of a word, and 
 
 ### Play the Game
 
-PLEASE CHECK THE LINK
+please check again the link
 [Deployed Game Link](https://github.com/JassimHayat/Hangman) 
 
 ### How to Play
@@ -33,8 +33,8 @@ PLEASE CHECK THE LINK
 
 ----------
 
-## Technologies Used - PLEASE UPDATE 
-
+## Technologies Used
+still
 ![HTML](https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white&style=flat-square)  
 ![CSS](https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white&style=flat-square)  
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square)
@@ -46,7 +46,7 @@ PLEASE CHECK THE LINK
 _Outline planned features or improvements for your game._
 
 -   Add Timer and Sound Effects.
--   Enhance some feature by adding Difficulty Levels.
+-   Enhance some feature by allowed to play as two teams.
 -   Provide an option to give players hints.
 
 
