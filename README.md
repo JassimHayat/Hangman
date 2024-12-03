@@ -1,4 +1,4 @@
-# [Hangman Game] 🎮
+# Hangman Game 🎮
 
 _Hangman is a popular word guessing game where one player thinks of a word, and the other player tries to guess it by suggesting letters. if the guesser suggests a correct letter, it's revealed in the word, if the guess is incorrect, a part of a hangman figure is drawn. but I created emojis instead of hangman figure._
 
