@@ -12,7 +12,7 @@ _Hangman is a popular word guessing game where one player thinks of a word, and 
 ### Play the Game
 
 
-[Deployed Game Link](https://github.com/JassimHayat/Hangman) 
+[Deployed Game Link](https://jassimhayat.github.io/Hangman/) 
 
 ### How to Play
 
