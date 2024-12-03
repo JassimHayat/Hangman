@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Hangman Game </title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hangman Game</h1>
+        
+        <!-- Hangman emoji figure -->
+        <p id="hangman-figure">🙂</p>
+        <p id="word-display">_ _ _ _ _ _ _ _ </p>
+        <p><strong>Guess a letter:</strong></p>
+        <input type="text" id ="guess-input" maxlength="1">
+        <button id="guess-button">Guess</button>
+        <button id="play-again-button" style="display: none;">Play Again</button>
+        <p id="message"></p>
+        <p><strong>Remaining guesses : <span id="remaining-guesses">6</span></strong></p>
+        <p><strong>Guessed letters: <span id="guessed-letters"></span></strong></p>
+    </div>
+</body>
+</html>
