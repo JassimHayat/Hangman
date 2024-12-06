@@ -55,8 +55,8 @@ function makeGuess() {
     const guessInput = document.getElementById('guess-input');
     const guess = guessInput.value.toLowerCase();
 
-    if (guess && !guessedLetters.includes(guess) && chosenWord.includes(guess)) { //https://codebeautify.org/jsvalidate
-        guessedLetters.push(guess); 
+    if (guess && !guessedLetters.includes(guess) && chosenWord.includes(guess)) { 
+        guessedLetters.push(guess); //https://codebeautify.org/jsvalidate
         // Update the displayed word
         for (let i = 0; i < chosenWord.length; i++) {
             if (chosenWord[i] === guess) {
