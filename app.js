@@ -45,7 +45,7 @@ function startGame() {
     document.getElementById('play-again-button').style.display = 'none'; //update play again button
 }
 
-// Function to update the word display with guessed letters // https://chatgpt.com/
+// Function to update the word display with guessed letters // https://chatgpt.com + https://www.w3schools.com/jsref/jsref_function.asp     
 function updateWordDisplay() {
     document.getElementById('word-display').textContent = displayedWord.join(' ');
 }
