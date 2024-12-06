@@ -32,7 +32,7 @@ function startGame() {
     guessedLetters = []
 
    
-     // Enable the guess-input & guess button when lose or win in the end of game
+     // Enable the guess-input & guess button when lose or win in the end of game // https://tiiny.host/html-validator/
      document.getElementById('guess-input').disabled = false;
      document.getElementById('guess-button').disabled = false;
 
@@ -45,7 +45,7 @@ function startGame() {
     document.getElementById('play-again-button').style.display = 'none'; //update play again button
 }
 
-// Function to update the word display with guessed letters
+// Function to update the word display with guessed letters // https://chatgpt.com/
 function updateWordDisplay() {
     document.getElementById('word-display').textContent = displayedWord.join(' ');
 }
@@ -55,8 +55,8 @@ function makeGuess() {
     const guessInput = document.getElementById('guess-input');
     const guess = guessInput.value.toLowerCase();
 
-    if (guess && !guessedLetters.includes(guess) && chosenWord.includes(guess)) {
-        guessedLetters.push(guess);
+    if (guess && !guessedLetters.includes(guess) && chosenWord.includes(guess)) { //https://codebeautify.org/jsvalidate
+        guessedLetters.push(guess); 
         // Update the displayed word
         for (let i = 0; i < chosenWord.length; i++) {
             if (chosenWord[i] === guess) {
@@ -74,21 +74,21 @@ function makeGuess() {
     if (remainingGuesses === 0) {
         document.getElementById('message').textContent = `💀 Game Over! The word was ${chosenWord}💀`;
         document.getElementById('hangman-figure').textContent = hangmanStages[remainingGuesses];
-        document.getElementById('play-again-button').style.display = 'inline';
+        document.getElementById('play-again-button').style.display = 'inline'; // https://tiiny.host/html-validator/
 
 
-        // Disable the guess-input & guess button (win/lose) in the end of game. 
-        document.getElementById('guess-input').disabled = true;
+        // Disable the guess-input & guess button (win/lose) in the end of game.  
+        document.getElementById('guess-input').disabled = true; 
         document.getElementById('guess-button').disabled = true;
       
        
     } else if (!displayedWord.includes('_')) {
 
         document.getElementById('message').textContent = 'Congratulations, you won!😎';
-        document.getElementById('play-again-button').style.display = 'inline';
+        document.getElementById('play-again-button').style.display = 'inline'; 
 
-        document.getElementById('guess-input').disabled = true;
-        document.getElementById('guess-button').disabled = true;
+        document.getElementById('guess-input').disabled = true; 
+        document.getElementById('guess-button').disabled = true; 
      
             }
             
